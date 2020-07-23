@@ -1,0 +1,62 @@
+html{
+    font-family: 'Reem Kufi';
+    height: 100%;
+    background: #5CDB95;
+    
+}
+
+.homeContent{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+h1{
+    color: #EDF5E1;
+    text-align: center;
+    font-family: 'Barrio';
+    font-size: 80px;
+    line-height: 10px;
+    padding-top: 10px;
+    
+}
+
+h2{
+    color: #EDF5E1;
+    text-align: center;
+    font-size: 32px;
+}
+
+nav{
+    text-align: center;
+    
+    
+    
+
+
+}
+nav a, nav h3{
+    font-size: 24px;
+	margin: 0px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+	line-height: 80px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+    color: white;
+    background-color: #379683;
+    border-radius: 4px;
+
+}
+
+nav a:hover{/* Hover styles to let people know they can click it */
+    background-color: #05386B;
+    border-radius: 4px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	transition: 0.3s;
+
+}
