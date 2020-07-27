@@ -1,6 +1,4 @@
-.reflectionTitle{
-    padding-top: 20px;
-}
+
 
 body{
     margin: 24px;
@@ -10,6 +8,7 @@ body{
     padding-top: 40px;
     width: 57vw;
     margin: auto;
+    padding-bottom: 40px;
     
 }
 
@@ -49,6 +48,10 @@ body{
     
 }
 
+.blogImageGrid {
+    width: fit-content;
+    
+}
 .blogContent{
     width: 100%;
     border-radius: 10px;
@@ -75,13 +78,11 @@ body{
     font-family: 'Reem Kufi';
     font-size: 32px;
     text-align: left;
-    line-height: 10px;
     text-shadow: 0px 0px 0px #05386B;
 }
 
 .blogDetails{
     font-size: 18px;
-    padding-top: 10px;
     padding-bottom: 0px;
     
     
@@ -96,4 +97,26 @@ a{
 
 a:hover{
     color: black;
+}
+
+.imageWrapRow{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.imageWrapColumn{
+    flex: 45%;
+    max-width: 50%;
+    padding: 5px;
+}
+
+.imageWrapColumn img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.blogImageGrid:hover{
+    box-shadow: 0 0 2px 3px  #05386B;
 }
