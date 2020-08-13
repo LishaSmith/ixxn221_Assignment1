@@ -23,7 +23,92 @@
 
 <!--Blog-->
 <div class="blogWrapper"> <!--Contain all Blog Cards-->
-    <div class="blogCardWrap"> <!--Single Image Blog Card-->
+
+    <!--JavaScript DarkMode-->
+    <div class="blogCardWrap flex-item"> <!--Double Image Blog Card-->
+        <div class="imageWrap">
+            <img src="images/DarkMode/lightMode.png" alt="Lightmode Image" class="blogImage">
+            <img src="images/DarkMode/darkMode.png" alt="Darkmode Image" class="blogImage">
+        </div>
+        <div class="blogContent">
+            <div class="info">
+                <h3 class="date">13/08/20</h3>
+                <h3 class="tag">JAVASCRIPT</h3>
+            </div>
+        <h1 class="blogTitle">Dark Mode</h1>
+        <p class="blogDetails">Todays tutorial had us use a ombination of HTML, CSS and JavaScript to create page that could toggle between two different modes.
+            I quite liked this tutorial and didn't have much trouble following along. Though, I found some of the JavaScript a bit confusing because I couldn't understand what exactly we were calling and creating.
+            <br>
+            <br>
+            <a href="https://github.com/LishaSmith/ixxn221_js-darkmode">Here is the GitHub link</a>
+        </p>
+        </div>
+    </div>
+
+    <!--JavaScript Baby Steps-->
+    <div class="blogCardWrap flex-item"> <!--Double Image Blog Card-->
+        
+        <div class="imageWrapRow">
+            <div class="imageWrapColumn">
+            <img src="images/javaScriptBabySteps/babyStepsMonkey.png" alt="Monkey" class="blogImage">
+            </div>
+            <div class="imageWrapColumn">
+            <img src="images/javaScriptBabySteps/babyStepsTails.png" alt="Tails" class="blogImage" >
+            </div>
+        </div>
+        <div class="blogContent">
+            <div class="info">
+                <h3 class="date">11/08/20</h3>
+                <h3 class="tag">JAVASCRIPT</h3>
+            </div>
+        <h1 class="blogTitle">JavaScript Baby Steps</h1>
+        <p class="blogDetails"> Using the example provided, we tried the getElementById command in JavaScript as well as linking external JavaScript files.
+            I created a small widget that changed picture depending on what button you clicked. I've always found JavaScript a lot more difficult to learn so I did have trouble remembering how to call functions in HTML.
+        </p>
+        </div>
+    </div>
+
+    <!--Flexbox and Media Queries-->
+    <div class="blogCardWrap flex-item"> <!--4 Image Grid Card-->
+        <div class="imageWrapRow">
+            
+            <div class= "imageWrapColumn">
+                <a target="_blank" href="images/FlexboxMedia/flexboxM1.png"></a>
+                <img src="images/FlexboxMedia/flexboxM1cut.png" alt="Source Code" class="blogImageGrid">
+                </a>
+            </div>
+            <div class= "imageWrapColumn">
+                <a target="_blank" href="images/FlexboxMedia/flexboxM2.png">
+                <img src="images/FlexboxMedia/flexboxM2cut.png" alt="Image Source" class="blogImageGrid">
+                </a>
+            </div>
+            <div class= "imageWrapColumn">
+                <a target="_blank" href="images/FlexboxMedia/flexboxM3.png">
+                <img src="images/FlexboxMedia/flexboxM3cut.png" alt="Apple Website" class="blogImageGrid">
+                </a> 
+            </div>
+            <div class= "imageWrapColumn">
+                <a target="_blank" href="images/FlexboxMedia/flexboxM4.png">
+                <img src="images/FlexboxMedia/flexboxM4cut.png" alt="Remake of Apple Website" class="blogImageGrid">
+                </a>
+            </div>
+        </div>
+
+        <div class="blogContent">
+            <div class="info">
+                <h3 class="date">28/07/20</h3>
+                <h3 class="tag">HTML/CSS</h3>
+            </div>
+        <h1 class="blogTitle">Flexbox</h1>
+        <p class="blogDetails">This exercise has us use flexbox and media query to create a more responsive webpage.
+            I had a bit of trouble with this exercise, but I figured out that the media query wouldn't work in the safari browser.
+        </p>
+        </div>
+    </div>
+
+
+    <!--Wireframing-->
+    <div class="blogCardWrap flex-item"> <!--Single Image Blog Card-->
         <div class="imageWrap">
             <img src="images/wireFrame.png" alt="Wireframe Image" class="blogImage">
         </div>
@@ -33,13 +118,13 @@
                 <h3 class="tag">WIREFRAME</h3>
             </div>
         <h1 class="blogTitle">Wireframing</h1>
-        <p class="blogDetails">I thought up a very basic wireframe. Originally I liked the gradient, but when
-            I created my site I found it looked a bit tacky. I opted for this cool green toned blog instead. But the colour palette is still undecided. I really liked how the cards looked that Blaine made so I swapped my concept of a really long white box for multiple cards. I still kept the two simple buttons aswell as the basic home page.
-        </button></p>
+        <p class="blogDetails">I thought up a very basic wireframe. Originally I liked the gradient, but when I created my site I found it looked a bit tacky. I opted for this cool green toned blog instead. But the colour palette is still undecided. I really liked how the cards looked that Blaine made so I swapped my concept of a really long white box for multiple cards. I still kept the two simple buttons aswell as the basic home page.
+        </p>
         </div>
     </div>
 
-    <div class="blogCardWrap"> <!--Only Text Card-->
+    <!--Why Git is Useful-->
+    <div class="blogCardWrap flex-item"> <!--Only Text Card-->
         <div class="blogContent">
             <div class="info">
                 <h3 class="date">23/07/20</h3>
@@ -55,8 +140,8 @@
         </div>
     </div>
 
-
-    <div class="blogCardWrap"> <!--4 Image Grid Card-->
+    <!--Mini Assignment One-->
+   <div class="blogCardWrap flex-item"> <!--4 Image Grid Card-->
         <div class="imageWrapRow">
             
             <div class= "imageWrapColumn">
@@ -72,7 +157,7 @@
             <div class= "imageWrapColumn">
                 <a target="_blank" href="images/AppleRemake/appleScreen.png">
                 <img src="images/AppleRemake/appleScreenCut.png" alt="Apple Website" class="blogImageGrid">
-                </a>
+                </a> 
             </div>
             <div class= "imageWrapColumn">
                 <a target="_blank" href="images/AppleRemake/appleRemake.png">
@@ -97,6 +182,7 @@
         </p>
         </div>
     </div>
+
 </div>
 </body>
 
