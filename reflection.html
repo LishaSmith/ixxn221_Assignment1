@@ -4,14 +4,14 @@
     <title>Reflections - Alisha Smith</title>
     <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Reem Kufi' rel='stylesheet'>
-    
     <link rel="stylesheet" type="text/css" href="css/indexStyle.css">
     <link rel="stylesheet" type="text/css" href="css/reflectionStyle.css">
 </head>
 
 <body>
+
     <!--Title of Page-->
-    <h1>Reflection</h1>
+    <h1>Reflections</h1>
     <h2>Alisha Smith IXXN221</h2>
 
     <!--Navigation-->
@@ -24,13 +24,65 @@
 <!--Blog-->
 <div class="blogWrapper"> <!--Contain all Blog Cards-->
 
-    <!--JavaScript DarkMode-->
-    <div class="blogCardWrap flex-item"> <!--Double Image Blog Card-->
-        <div class="imageWrap">
-            <img src="images/DarkMode/lightMode.png" alt="Lightmode Image" class="blogImage">
-            <img src="images/DarkMode/darkMode.png" alt="Darkmode Image" class="blogImage">
+     <!--General Blog Update-->
+     <div class="blogCardWrap"> <!--Contain Blog Content-->
+
+        <div class="blogContent"> <!--Content-->
+            <div class="info">
+                <h3 class="date">06/09/20</h3>
+                <h3 class="tag">WORD</h3>
+            </div>
+        <h1 class="blogTitle">General Blog Update</h1>
+        <p class="blogDetails">I have been updating the layout of my blog, using various tutorials which I will link. I wanted a Tumblr type of layout that had a lot more information as oppoised to just one column.
+            Creating the responsive grid layout was very difficult for me and pushed me to really expand my coding knowledge. I had to figure out how to use Plug-ins, and while I'm still learning, I am quite happy that I even managed to follow the tutorial correctly.<br>
+            Another feature I added was a slideshow aspect, this saved space on my posts and also the code is easily re-useable. I did have problems adding in additional slideshows, but I found that was to do with the JavaScript.
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=2ajkfOlDU7s">Here is the link to the Grid tutorial</a><br>
+            <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp">Here is the link to the Slideshow tutorial</a>
+            
+        </p>
         </div>
-        <div class="blogContent">
+    </div>
+
+
+    <!--Updated Wireframing-->
+    <div class="blogCardWrap">  <!--Contain Blog Content-->
+
+        <div class="imageWrap">
+            <img src="images/Wireframes/wireFrameV2.png" alt="Updated Wireframe Image" class="blogImage">
+        </div>
+
+        <div class="blogContent"> <!--Content-->
+            <div class="info">
+                <h3 class="date">03/09/20</h3>
+                <h3 class="tag">WIREFRAME</h3>
+            </div>
+        <h1 class="blogTitle">Updated Wireframing</h1>
+        <p class="blogDetails">This is an updated wireframe that more accurately depicts the aesthetic I am aiming for. I really like the green colour palette I have, as well the blog cards that I have.
+            My most notable changes include the blog-card layout and the inclusion of the mobile format. To me, it gives more of a blog feel as well as is a bit more adventurous code-wise.
+        </p>
+        </div>
+    </div>
+
+    <!--JavaScript DarkMode-->
+    <div class="blogCardWrap"> <!--Contain Blog Content-->
+
+        <div class="slideImageWrap"> <!--Slideshow Content-->
+
+            <div class="mySlides1 fade">
+                <img src="images/DarkMode/lightMode.png" alt="Lightmode Image" class="blogImage">
+            </div>
+            <div class="mySlides1 fade">
+                <img src="images/DarkMode/darkMode.png" alt="Darkmode Image" class="blogImage">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1,0)">&#10094</a> <!--Prev-->
+            <a class="next" onclick="plusSlides(1,0)">&#10095</a> <!--Next-->
+        
+        </div>
+
+        <div class="blogContent"> <!--Content-->
             <div class="info">
                 <h3 class="date">13/08/20</h3>
                 <h3 class="tag">JAVASCRIPT</h3>
@@ -46,17 +98,24 @@
     </div>
 
     <!--JavaScript Baby Steps-->
-    <div class="blogCardWrap flex-item"> <!--Double Image Blog Card-->
+    <div class="blogCardWrap"> <!--Contain Blog Content-->
         
-        <div class="imageWrapRow">
-            <div class="imageWrapColumn">
+        <div class="slideImageWrap"> <!--Slideshow Content-->
+
+            <div class="mySlides2 fade">
             <img src="images/javaScriptBabySteps/babyStepsMonkey.png" alt="Monkey" class="blogImage">
             </div>
-            <div class="imageWrapColumn">
+
+            <div class="mySlides2 fade">
             <img src="images/javaScriptBabySteps/babyStepsTails.png" alt="Tails" class="blogImage" >
             </div>
+
+            <a class="prev" onclick="plusSlides(-1,1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1,1)">&#10095</a>
+
         </div>
-        <div class="blogContent">
+
+        <div class="blogContent"> <!--Content-->
             <div class="info">
                 <h3 class="date">11/08/20</h3>
                 <h3 class="tag">JAVASCRIPT</h3>
@@ -69,32 +128,35 @@
     </div>
 
     <!--Flexbox and Media Queries-->
-    <div class="blogCardWrap flex-item"> <!--4 Image Grid Card-->
-        <div class="imageWrapRow">
-            
-            <div class= "imageWrapColumn">
-                <a target="_blank" href="images/FlexboxMedia/flexboxM1.png"></a>
-                <img src="images/FlexboxMedia/flexboxM1cut.png" alt="Source Code" class="blogImageGrid">
-                </a>
+    <div class="blogCardWrap"> <!--Contain Blog Content-->
+
+        <div class="slideImageWrap"> <!--Slideshow Content-->
+
+            <div class= "mySlides3 fade">
+                <img src="images/FlexboxMedia/wireframe1.JPG" class="blogImage">
             </div>
-            <div class= "imageWrapColumn">
-                <a target="_blank" href="images/FlexboxMedia/flexboxM2.png">
-                <img src="images/FlexboxMedia/flexboxM2cut.png" alt="Image Source" class="blogImageGrid">
-                </a>
+            <div class= "mySlides3 fade">
+                <img src="images/FlexboxMedia/wireframe2.JPG" class="blogImage">
             </div>
-            <div class= "imageWrapColumn">
-                <a target="_blank" href="images/FlexboxMedia/flexboxM3.png">
-                <img src="images/FlexboxMedia/flexboxM3cut.png" alt="Apple Website" class="blogImageGrid">
-                </a> 
+            <div class= "mySlides3 fade">
+                <img src="images/FlexboxMedia/flexbox1.png" class="blogImage">
             </div>
-            <div class= "imageWrapColumn">
-                <a target="_blank" href="images/FlexboxMedia/flexboxM4.png">
-                <img src="images/FlexboxMedia/flexboxM4cut.png" alt="Remake of Apple Website" class="blogImageGrid">
-                </a>
+            <div class= "mySlides3 fade">
+                <img src="images/FlexboxMedia/flexbox2.png" class="blogImage">
             </div>
+            <div class= "mySlides3 fade">
+                <img src="images/FlexboxMedia/flexbox3.png" class="blogImage"> 
+            </div>
+            <div class= "mySlides3 fade">
+                <img src="images/FlexboxMedia/flexbox4.png"  class="blogImage">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1,2)">&#10094</a>
+            <a class="next" onclick="plusSlides(1,2)">&#10095</a>
+
         </div>
 
-        <div class="blogContent">
+        <div class="blogContent"> <!--Content-->
             <div class="info">
                 <h3 class="date">28/07/20</h3>
                 <h3 class="tag">HTML/CSS</h3>
@@ -108,11 +170,13 @@
 
 
     <!--Wireframing-->
-    <div class="blogCardWrap flex-item"> <!--Single Image Blog Card-->
+    <div class="blogCardWrap">  <!--Contain Blog Content-->
+
         <div class="imageWrap">
-            <img src="images/wireFrame.png" alt="Wireframe Image" class="blogImage">
+            <img src="images/Wireframes/wireFrame.png" alt="Wireframe Image" class="blogImage">
         </div>
-        <div class="blogContent">
+
+        <div class="blogContent"> <!--Content-->
             <div class="info">
                 <h3 class="date">24/07/20</h3>
                 <h3 class="tag">WIREFRAME</h3>
@@ -124,8 +188,9 @@
     </div>
 
     <!--Why Git is Useful-->
-    <div class="blogCardWrap flex-item"> <!--Only Text Card-->
-        <div class="blogContent">
+    <div class="blogCardWrap"> <!--Contain Blog Content-->
+
+        <div class="blogContent"> <!--Content-->
             <div class="info">
                 <h3 class="date">23/07/20</h3>
                 <h3 class="tag">WORD</h3>
@@ -141,32 +206,28 @@
     </div>
 
     <!--Mini Assignment One-->
-   <div class="blogCardWrap flex-item"> <!--4 Image Grid Card-->
-        <div class="imageWrapRow">
-            
-            <div class= "imageWrapColumn">
-                <a target="_blank" href="images/AppleRemake/appleSource.png">
-                <img src="images/AppleRemake/appleSourceCut.png" alt="Source Code" class="blogImageGrid">
-                </a>
-            </div>
-            <div class= "imageWrapColumn">
-                <a target="_blank" href="images/AppleRemake/appleSourceTwo.png">
-                <img src="images/AppleRemake/appleSourceTwoCut.png" alt="Image Source" class="blogImageGrid">
-                </a>
-            </div>
-            <div class= "imageWrapColumn">
-                <a target="_blank" href="images/AppleRemake/appleScreen.png">
-                <img src="images/AppleRemake/appleScreenCut.png" alt="Apple Website" class="blogImageGrid">
-                </a> 
-            </div>
-            <div class= "imageWrapColumn">
-                <a target="_blank" href="images/AppleRemake/appleRemake.png">
-                <img src="images/AppleRemake/appleRemakeCut.png" alt="Remake of Apple Website" class="blogImageGrid">
-                </a>
-            </div>
-        </div>
+   <div class="blogCardWrap"> <!--Contain Blog Content-->
 
-        <div class="blogContent">
+            <div class="slideImageWrap"> <!--Slideshow Content-->
+            
+                <div class= "mySlides4 fade">
+                    <img src="images/AppleRemake/appleSourceCut.png" class="blogImage">
+                </div>
+
+                <div class= "mySlides4 fade">
+                    <img src="images/AppleRemake/appleScreenCut.png" class="blogImage">
+                </div>
+
+                <div class= "mySlides4 fade">
+                    <img src="images/AppleRemake/appleRemakeCut.png" class="blogImage">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1,3)">&#10094</a>
+            <a class="next" onclick="plusSlides(1,3)">&#10095</a>
+
+            </div>
+        
+        <div class="blogContent"> <!--Content-->
             <div class="info">
                 <h3 class="date">19/07/20</h3>
                 <h3 class="tag">HTML/CSS</h3>
@@ -184,6 +245,20 @@
     </div>
 
 </div>
-</body>
 
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="script/jaliswall.js"></script>
+      <script type="text/javascript">
+
+            $('.blogWrapper').jaliswall({
+                  item : '.blogCardWrap',
+                  columnClass : '.wall-column'
+            });
+
+      </script>
+
+</body>
 </html>
+<!-- Run JavaScript after page has loaded-->
+<script src="script/slideScript.js"></script>

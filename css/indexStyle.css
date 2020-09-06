@@ -17,9 +17,9 @@ h1{
     color: #EDF5E1;
     text-align: center;
     font-family: 'Barrio';
-    font-size: 88px;
+    font-size: 108px;
     text-shadow: 5px 5px 2px #379683;
-    padding-top: 10px;
+    
     
     
 }
@@ -63,4 +63,34 @@ nav a:hover{/* Hover styles to let people know they can click it */
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	transition: 0.3s;
 
+}
+
+.aboutCardWrap{
+    margin: auto;
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 30px;
+    /*border: 5px solid #05386B ;*/
+    border-radius: 10px;
+    background-color: #EDF5E1;
+    box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+    transition: all 200ms;
+
+}
+
+.aboutTitle{
+    color: black;
+    font-family: 'Reem Kufi';
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 0px 0px 0px #05386B;
+}
+
+.aboutDetails{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 0px;
+    
+    
 }
