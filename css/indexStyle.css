@@ -2,14 +2,14 @@ html{
     font-family: 'Reem Kufi';
     height: 100%;
     background: #5CDB95;
+    background-image: url(../images/blogBackground.png);
+    background-size: cover;
+    background-attachment: fixed;
     
 }
 
 .homeContent{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    align-content: center;
     
 }
 
@@ -67,7 +67,7 @@ nav a:hover{/* Hover styles to let people know they can click it */
 
 .aboutCardWrap{
     margin: auto;
-    width: 75%;
+    width: 50%;
     margin-top: 30px;
     margin-bottom: 40px;
     padding: 30px;
@@ -93,4 +93,16 @@ nav a:hover{/* Hover styles to let people know they can click it */
     padding-bottom: 0px;
     
     
+}
+
+@media (max-width: 640px) {
+    .homeContent{
+        top: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1{
+        top: 70%;
+    }
 }
